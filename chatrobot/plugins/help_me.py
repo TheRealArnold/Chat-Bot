@@ -31,8 +31,8 @@ async def sedlyfsir(event):
     oksir = Config.CUSTOM_START
     if Config.CUSTOM_START is None:
         text_me = (f"**Hai. {firstname} , I am {bot_username}.** \n"
-               f"`I am A ChatBot To Talk With My` [Master](tg://user?id={oknoob}) \n"
-               f"**Send Me And I Will Send To Moi Master.** \n"
+               f"`I am A ChatBot To Talk With My` [Master](https://t.me/LEGEND_OF_TG) \n"
+               f"**Send Me And I Will Send To My Master.** \n"
                f"**Thank You**")
     else:
         text_me = f"{oksir}"
@@ -57,10 +57,10 @@ async def sedlyfsir(event):
 async def help(event):
     if event.query.user_id is not Config.OWNER_ID:
         await event.edit(
-            "You Can Deploy Your Own ChatBot By Watching Video Down There. \nThank You For Contacting Me.",
+            "My Group. \nJoin Here.",
             buttons=[
-                [Button.url("Deploy Tutorial 📺", "t.me/Infotel14")],
-                [Button.url("Need Help ❓", "t.me/SerenaAssistantBot")],
+                [Button.url("Group", "https://t.me/LatestMoviesGroup2")],
+                [Button.url("Channel", "https://t.me/LM_All_MoviesArchive")],
             ],
         )
         
